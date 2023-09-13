@@ -3,6 +3,6 @@ public class HelloWorld {
 		// This line says "Hello"
 		System.out.println("Hello World!");
 
-		Utility.printHello();
+		Utility.printHello(args[0]);
 	}
 }
